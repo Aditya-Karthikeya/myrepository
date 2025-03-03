@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        table,th,td{
+            border: 1px solid white;
+            border-collapse: collapse;
+            background-color: aqua;
+            box-shadow: 0px 2px 2px 0px white;
+        }
+        td,th{
+            text-align: center;
+            padding: 10px;
+        }
+        th{
+            background-color: blueviolet;
+            color: aqua;
+        }
+        .break{
+            background-color: blueviolet;
+            color: aqua;
+        }
+        td{
+            color: blueviolet;
+        }
+        table{
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: whitesmoke; text-align: center;">Time Table</h1>
+    <table>
+        <tr>
+            <th> Day/Time</th>
+            <th>9:00-9:50</th>
+            <th>9:50-10:40</th>
+            <th>10:40-11:30</th>
+            <th>11:30-11:50</th>
+            <th>11:50-12:40</th>
+            <th>12:40-1:30</th>
+            <th>1:30-2:20</th>
+            <th>2:20-3:10</th>
+            <th>3:10-4:00</th>
+        </tr>
+        <tr>
+            <th>MON</th>
+            <td>DIP</td>
+            <td>TS</td>
+            <td>LPVLSI</td>
+            <td rowspan="6" class="break">BREAK</td>
+            <td>SC</td>
+            <td>ES</td>
+            <td rowspan="6" class="break">LUNCH BREAK</td>
+            <td>CST</td>
+            <td>Technical seminar</td>
+        </tr>
+        <tr>
+            <th>TUE</th>
+            <td>CST</td>
+            <td>MS</td>
+            <td>SC</td>
+            <td>ES</td>
+            <td>LPVLSI</td>
+            <td colspan="2">Technical seminar</td>
+        </tr>
+        <tr>
+            <th>WED</th>
+            <td>MS</td>
+            <td>SC</td>
+            <td>DIP</td>
+            <td>ES</td>
+            <td>CST</td>
+            <td colspan="2">PROJECT</td>
+        </tr>
+        <tr>
+            <th>THUR</th>
+            <td>LPVLSI</td>
+            <td>SC</td>
+            <td>DIP</td>
+            <td>MS</td>
+            <td>LAB</td>
+            <td colspan="2">IOT LAB-B</td>
+        </tr>
+        <tr>
+            <th>FRI</th>
+            <td>SC</td>
+            <td>DIP</td>
+            <td>MS</td>
+            <td>CST</td>
+            <td>ES</td>
+            <td>LPVLSI</td>
+            <td>LIBRARY</td>
+        </tr>
+        <tr>
+            <th>SAT</th>
+            <td>DIP</td>
+            <td>CST</td>
+            <td>LPVLSI</td>
+            <td>MS</td>
+            <td>ES</td>
+            <td colspan="2">CLUB ACTIVITIES</td>
+        </tr>
+    </table>
+</body>
+</html>
